@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f7f5f1] text-slate-900">
       <section className="mx-auto max-w-[1600px] border-b border-slate-200 px-4 pt-12 pb-8 lg:px-8">
-        <div className="text-xs uppercase tracking-[0.28em] text-slate-500">Academic portal</div>
         <h1 className="mt-3 max-w-4xl text-pretty text-4xl font-semibold tracking-tight text-slate-950 lg:text-5xl">
           Definitions &amp; Measures of Model Intelligence
         </h1>
@@ -27,10 +26,6 @@ export default function App() {
 
       <section id="about" className="mx-auto max-w-[1600px] px-4 py-10 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-3">
-          <div>
-            <div className="text-xs uppercase tracking-[0.28em] text-slate-500">About</div>
-            <h2 className="mt-2 text-2xl font-semibold tracking-tight text-slate-950">A debate, not a verdict</h2>
-          </div>
           <p className="text-sm leading-7 text-slate-600 lg:col-span-2">
             The question of whether machine learning systems are "intelligent" rarely turns on a single study. It
             depends on what intelligence is taken to be, whether a given kind of system could have it in principle, how

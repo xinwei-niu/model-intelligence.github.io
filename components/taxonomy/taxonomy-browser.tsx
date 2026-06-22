@@ -124,28 +124,7 @@ export function TaxonomyBrowser() {
                 <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">{visibleSection.description}</p>
               </div>
 
-              <div className="grid shrink-0 grid-cols-2 gap-2 text-xs text-slate-600 sm:grid-cols-4">
-                <div className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
-                  <div className="text-[0.65rem] uppercase tracking-wide text-slate-400">Visible</div>
-                  <div className="mt-1 text-base font-semibold text-slate-900">{visiblePapers.length}</div>
-                </div>
-                <div className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
-                  <div className="text-[0.65rem] uppercase tracking-wide text-slate-400">Filtered</div>
-                  <div className="mt-1 text-base font-semibold text-slate-900">{filteredPapers.length}</div>
-                </div>
-                <div className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
-                  <div className="text-[0.65rem] uppercase tracking-wide text-slate-400">Support</div>
-                  <div className="mt-1 text-base font-semibold text-slate-900">
-                    {filteredPapers.filter((p) => p.stance === "Support").length}
-                  </div>
-                </div>
-                <div className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
-                  <div className="text-[0.65rem] uppercase tracking-wide text-slate-400">Contest</div>
-                  <div className="mt-1 text-base font-semibold text-slate-900">
-                    {filteredPapers.filter((p) => p.stance === "Contest").length}
-                  </div>
-                </div>
-              </div>
+              
             </div>
 
             <div className="grid gap-3 xl:grid-cols-[1.2fr_repeat(3,minmax(0,1fr))]">
