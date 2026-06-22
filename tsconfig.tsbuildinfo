@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./components/site-footer.tsx","./components/taxonomy/badge.tsx","./components/taxonomy/paper-card.tsx","./components/taxonomy/section-card.tsx","./components/taxonomy/taxonomy-browser.tsx","./components/taxonomy/taxonomy-map.tsx","./components/taxonomy/taxonomy-tree.tsx","./lib/taxonomy-data.ts","./vite.config.ts"],"version":"5.9.3"}
