@@ -24,10 +24,5 @@
         "@types/react": "^19.2.17",
         "@types/react-dom": "^19.2.3",
         "gh-pages": "^6.3.0"
-    },
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
-        },
-    "homepage": "https://model-intelligence.github.io"
+    }
 }
